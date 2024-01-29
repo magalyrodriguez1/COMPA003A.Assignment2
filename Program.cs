@@ -21,7 +21,29 @@ namespace COMPA003A.Assignment2
             string inputAge = Console.ReadLine();
             int yearBorn = 2023 - Convert.ToInt32(inputAge);
             Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}.");
-            
+
+            //math section
+            string integerInput = Console.ReadLine();
+            int integer1 = Convert.ToInt32(integerInput);
+
+            string integerInput2 = Console.ReadLine();
+            int integer2 = Convert.ToInt32(integerInput2);
+
+            Console.WriteLine($"{integer1} + {integer2} = {integer1 + integer2}");
+
+            Console.WriteLine($"{integer1} - {integer2} = {integer1 + integer2}");
+
+            Console.WriteLine($"{integer1} * {integer2} = {integer1 * integer2}");
+
+            Console.WriteLine($"{integer1} / {integer2} = {integer1 / integer2}");
+
+            Console.WriteLine($"{integer1} % {integer2} = {integer1 / integer2}");
+
+
+
+
+
+
 
 
         }
