@@ -39,6 +39,16 @@ namespace COMPA003A.Assignment2
 
             Console.WriteLine($"{integer1} % {integer2} = {integer1 / integer2}");
 
+            //circle area and circumference calculator section
+            string radiusInput = Console.ReadLine();
+            double radius = Convert.ToDouble(Console.ReadLine());
+            double area = Math.PI * Math.Pow(radius, 2);
+            double circumference = 2 * Math.PI * radius;
+            Console.WriteLine("The area is " + area);
+            Console.WriteLine("The circumference is " + circumference);
+
+
+
 
 
 
